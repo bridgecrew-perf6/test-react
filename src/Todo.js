@@ -5,7 +5,13 @@ class Todo extends Component {
     render(){
         const {friends}=this.props
         console.log(friends)
-        return true
+        return <>
+            {friends.map(friend => {
+                return (
+                    <h2>{friend.name}</h2>
+                )
+            })}
+        </>
     }
 }
 export default Todo 
