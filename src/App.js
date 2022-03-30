@@ -17,8 +17,6 @@ export default class App extends Component {
       <h1>{name}</h1>
       <button type="button" onClick={this.changeName}>change name</button>
       <NameTag name={childName}></NameTag>
-       
-       
       </>
     )
   }
