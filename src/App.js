@@ -4,7 +4,8 @@ import NameTag from './NameTag'
 export default class App extends Component {
   state = {
     name: 'parent',
-    childName: 'child'
+    childName: 'child',
+    abc: 'abc'
   }
   changeName = () => {
     this.setState({name: 'parent changed', childName: 'child change'})

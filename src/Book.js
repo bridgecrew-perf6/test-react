@@ -13,6 +13,7 @@ class Book extends React.Component{
         const { title, author, summary, genre, release, ISBN} = this.state 
         return (
             <>
+            <h1>ddd</h1>
                 <h1>도서 정보</h1>
                 <h3>제목 - {title}</h3>
                 <h3>저자 - {author}</h3>
